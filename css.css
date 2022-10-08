@@ -21,7 +21,7 @@ body {
 #title {
   color: black;
   /* editar el height */
-  height: 1vh;
+  height: 100vh;
   width: 100vw;
   background-color: white;
   margin-bottom: 50px;
@@ -75,11 +75,24 @@ audio {
   background-color: rgba(0, 0, 0, 0.5);
   text-align: justify;
   border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 .img {
   height: auto;
   width: 30vw;
+}
+
+footer {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 100px;
+}
+
+.biblio {
+  font-size: 10px;
 }
 
 a:link {
@@ -93,7 +106,6 @@ a:visited {
 }
 
 a:hover {
-  font-size: 1.1em;
   text-decoration: none;
 }
 

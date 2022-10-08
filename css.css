@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 98vh;
+  color: white;
+  background-color: #000000;
+  opacity: 1;
+  background: linear-gradient(135deg, #0c0c0c55 25%, transparent 25%) -20px 0/
+      40px 40px,
+    linear-gradient(225deg, #0c0c0c 25%, transparent 25%) -20px 0/ 40px 40px,
+    linear-gradient(315deg, #0c0c0c55 25%, transparent 25%) 0px 0/ 40px 40px,
+    linear-gradient(45deg, #0c0c0c 25%, #000000 25%) 0px 0/ 40px 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  justify-items: center;
+}
+
+#title {
+  color: black;
+  /* editar el height */
+  height: 1vh;
+  width: 100vw;
+  background-color: white;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+  justify-items: right;
+  text-align: right;
+
+  font-size: 30px;
+
+  border: 2px solid white;
+}
+
+main {
+  width: 75vw;
+  height: auto;
+  padding: 5%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: grid;
+  grid-template-rows: auto;
+}
+
+.cardi {
+  margin: 5%;
+  width: auto;
+  margin-left: -10%;
+  display: grid;
+  grid-template-columns: 40% 10% 50%;
+}
+
+.cardd {
+  margin: 5%;
+  width: auto;
+  margin-right: -10%;
+  display: grid;
+  grid-template-columns: 50% 10% 40%;
+}
+
+audio {
+  width: 100%;
+  align-self: center;
+}
+
+.text {
+  padding: 5%;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: justify;
+  border-top-left-radius: 30px;
+}
+
+.img {
+  height: auto;
+  width: 30vw;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+/* WEBKIT */
+
+body::-webkit-scrollbar {
+  width: 5px;
+  background-color: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 1px;
+}
